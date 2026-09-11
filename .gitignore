@@ -1,0 +1,29 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environment / secrets
+.env
+.env.local
+
+# Data & trained models — large, regenerable via the notebooks (see README)
+data/raw/
+data/processed/
+models/*.pkl
+
+# Node / frontend
+frontend/credit-dashboard/node_modules/
+frontend/credit-dashboard/build/
+npm-debug.log*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
